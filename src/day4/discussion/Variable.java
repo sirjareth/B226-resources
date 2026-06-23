@@ -43,6 +43,6 @@ public class Variable {
         temp = 38.5;
         //System.out.println("Temp: " + temp);
         
-        
+        //
     }
 }
