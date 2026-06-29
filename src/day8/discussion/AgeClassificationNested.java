@@ -36,15 +36,7 @@ public class AgeClassificationNested {
         // Validation
 
         if (age >= 0 && age <= 120) {
-            
-        } else {
-            System.out.println("Invalid Age Entered.");
-        }
-        
-        
-        
-        
-        if (age <= 12) { // 0 - 12  - outer if 
+            if (age <= 12) { // 0 - 12  - outer if 
                 System.out.println("You are a child");
                 if (age <= 5) { // toddler - inner if
                     System.out.println("Specifically, you are Toddler.");
@@ -57,7 +49,10 @@ public class AgeClassificationNested {
                 System.out.println("You are adult");
             } else if (age <= 120) { // 60 - 120
                 System.out.println("You are senior citizen");
-            } 
+            }
+        } else {
+            System.out.println("Invalid Age Entered.");
+        }
 
         // alt + shift + f
         // code minimization
