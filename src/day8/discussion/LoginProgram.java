@@ -25,7 +25,7 @@ public class LoginProgram {
         String loginPassword = input.nextLine(); // Read user input and stores it to loginPassword variable
         
         // Check if both username and password match the predefined values
-        if (loginUsername.equals(username) && loginPassword.equals(password)) {
+        if (username.equals(loginUsername) && loginPassword.equals(password)) {
             System.out.println("\nLogin successful! " + "Welcome, " + username); 
         } else {
             System.out.println("\nLogin Failed. Invalid username or password.");
