@@ -5,10 +5,7 @@
  */
 package day21.discussion;
 
-/**
- *
- * @author Yuno
- */
+
 public class Main {
     
     public static void main(String[] args) {

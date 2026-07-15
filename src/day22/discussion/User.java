@@ -5,7 +5,6 @@
  */
 package day22.discussion;
 
-
 public class User {
     
      int id;
